@@ -1,0 +1,14 @@
+# Virtual Environment folders
+venv/
+.venv/
+env/
+__pycache__/
+*.pyc
+
+# Heavy file uploads & saved ML model binaries
+uploads/*
+!uploads/.gitkeep
+models/*.joblib
+
+# OS generated junk
+.DS_Store
